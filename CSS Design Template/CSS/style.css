@@ -1,0 +1,215 @@
+.navbar-dark {
+    background-color: rgb(0, 81, 255);
+    background-image: linear-gradient(white, #172572d7);
+    height: 90px;
+    padding: 2%;
+    
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 110px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+/* Hero */
+.hero {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-photo/summer-background-sea-water_64049-160.jpg?w=1060&t=st=1669400527~exp=1669401127~hmac=a61a9fe76fe06bbac4d7121cf33d28304407156abab9966617ff9061f7bced81");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.hero-content {
+    border-radius: 15px;
+    background-color: #000000;
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: #2b1b70ad;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.hero-content-round{
+    scale: 150%;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    width: 9%;
+    top: 52%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: #2b1b70ad;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.ButtonColorGreen{
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.ButtonColorYellow{
+    border-radius: 5px;
+    background-color: #e5ff00;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.ButtonColorRed{
+    border-radius: 5px;
+    background-color: #2600ff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.ButtonColorTransparent{
+    border-radius: 9px;
+    background-color: rgb(175, 175, 175);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: #202b2f;
+}
+
+/* Detailed Info Tab */
+.DetailTab{
+    text-align: left;
+    background-image: linear-gradient(#212263,white);
+    color: rgb(255, 255, 255);
+    padding: 250px;
+
+}
+
+.DetailTabImage{
+    scale: 120%;
+    width: 100%;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+}
+
+/*Effective Services Part*/
+.EffectiveServices{
+    text-align: right;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 150px;
+    padding-top: 250px;
+    padding-right: 250px;
+}
+
+.EffectiveServicesImage{
+    scale: 120%;
+    position: relative;
+    left: -1000px;
+    top: -180px;
+    
+}
+
+/* Services */
+.services {
+    background-image: linear-gradient(#212263,white, #212263);
+    padding: 30px 0px;
+}
+
+.service {
+    text-align: center;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.service1 {
+    text-align: center;
+    background-color: rgb(54, 52, 175);
+    color: rgb(0, 0, 0);
+}
+
+.service2 {
+    text-align: center;
+    background-color: rgb(54, 52, 175);
+    color: rgb(0, 0, 0);
+}
+
+.service3 {
+    background-color: rgb(54, 52, 175);
+    color: rgb(0, 0, 0);
+}
+
+.service4 {
+    background-color: rgb(54, 52, 175);
+    color: rgb(2, 2, 2);
+}
+
+.service img {
+    width: 50%;
+    /* display: block; */
+    /* margin: 0 auto; */
+    /* margin-bottom: 20px; */
+}
+
+
+/* Contact Page ----------------------------------- */
+.contact-form {
+    padding: 30px 0;
+}
+
+
+/* Media Query */
+@media screen and (max-width:575px) {
+    body {
+        background-color: palevioletred;
+    }
+
+    .service {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar-dark {
+        background-color: rgba(230, 18, 18, 0);
+    }
+
+    body {
+        background-color: rgb(192, 0, 64);
+    }
+}
